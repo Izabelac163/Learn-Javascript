@@ -1,3 +1,4 @@
+"use strict";
 // create a function that takes a fruit object and adds it to the fruit Object List
 var apple = {
   name: "apple",
