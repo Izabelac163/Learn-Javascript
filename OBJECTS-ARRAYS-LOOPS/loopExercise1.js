@@ -14,8 +14,18 @@ console.log(fruitList[5].name, fruitList[5].color);
 
 //1-100 print every 2 number
 function everySecondNum() {
-  for (i = 0; i <= 100; i++) {
-    i = i + 2;
+  for (i = 0; i < 100; i += 1) {
+    i = i + 1;
+    console.log(i);
+  }
+  console.log("finished");
+}
+
+everySecondNum();
+
+function backwardsNum() {
+  for (i = 100; i > 1; i -= 2) {
     console.log(i);
   }
 }
+backwardsNum();
